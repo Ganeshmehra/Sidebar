@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url("https://t4.ftcdn.net/jpg/08/05/22/33/240_F_805223336_Vn1mYU4oxBDhRvFqPo3NB1YhElD6eNAp.jpg");
+    background-size:cover;
+
+} 
+.box:hover{
+    color: black;
+    background: #4d82ac;
+    border-radius: 10px;
+}
+
+.sidbar{
+    width: 100%;
+     background:transparent;
+     backdrop-filter:blur(40px);
+      padding: 4px;
+      margin: 2px;
+      border:1px solid rgba(255, 255, 255, .4);
+}
+
+.boxA{
+    background:transparent;
+    backdrop-filter:blur(60px);
+    color: black;
+    background: #4d82ac;
+    border-radius: 10px;
+    
+
+}
+.scrol{
+    max-width: 945px;
+    max-height: 600px;
+    overflow: scroll;
+    
+}
